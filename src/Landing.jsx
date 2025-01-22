@@ -353,7 +353,7 @@ const Landing = () => {
                                         </div>
                                         <button
                                             className="package-btn w-full mt-6 px-6 py-3 bg-[#ffae01] text-white rounded-lg text-lg font-bold shadow-lg transform transition-transform duration-300 hover:bg-[#9a0021] hover:scale-105"
-                                            onClick={() => window.open('https://wa.me/17874231472?text=Me%20interesa%20el%20plan%201%20persona', '_blank')}
+                                            onClick={() => window.open('https://wa.me/17874231472?text=Me%20interesa%20el%20plan%20de%201%20persona', '_blank')}
                                         >
                                             <i className="fa-brands fa-whatsapp mr-2"></i> Me interesa
                                         </button>
@@ -391,7 +391,7 @@ const Landing = () => {
                                         </div>
                                         <button
                                             className="package-btn w-full mt-6 px-6 py-3 bg-[#ffae01] text-white rounded-lg text-lg font-semibold shadow-lg transform transition-transform duration-300 hover:bg-[#9a0021] hover:scale-105"
-                                            onClick={() => window.open('https://wa.me/17874231472?text=Me%20interesa%20el%20plan%202%20persona', '_blank')}
+                                            onClick={() => window.open('https://wa.me/17874231472?text=Me%20interesa%20el%20plan%20de%202%20personas', '_blank')}
                                         >
                                             <i className="fa-brands fa-whatsapp mr-2"></i> Me interesa
                                         </button>
@@ -427,7 +427,7 @@ const Landing = () => {
                                         </div>
                                         <button
                                             className="package-btn w-full mt-6 px-6 py-3 bg-[#ffae01] text-white rounded-lg text-lg font-semibold shadow-lg transform transition-transform duration-300 hover:bg-[#9a0021] hover:scale-105"
-                                            onClick={() => window.open('https://wa.me/17874231472?text=Me%20interesa%20el%20plan%203%20persona', '_blank')}
+                                            onClick={() => window.open('https://wa.me/17874231472?text=Me%20interesa%20el%20plan%20de%203%20personas', '_blank')}
                                         >
                                             <i className="fa-brands fa-whatsapp mr-2"></i> Me interesa
                                         </button>

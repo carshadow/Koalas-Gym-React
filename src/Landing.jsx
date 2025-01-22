@@ -267,13 +267,13 @@ const Landing = () => {
                     <h2 className="text-4xl font-bold text-center text-[#ffae01] mb-8 pt-16">
                         Vence tus excusas
                     </h2>
-                    <p className="font-bold text-center text-white mb-8 ">Es hora de dar paso a la acción. Con mi guía y tu comporomiso, alcanzaremos tus metas
+                    <p className="font-bold text-center text-white mb-8 ">Es hora de dar paso a la acción. Con mi guía y tu compromiso, alcanzaremos tus metas
                         juntos</p>
                     <h3 className=" text-xl font-bold text-center text-[#ffae01] mb-8">¡Comienza ahora!</h3>
                     <div className="flex gap-10 px-8 overflow-x-auto scroll-smooth">
                         {[
-                            { src: 'img/Entrenamiento Personal.JPG', label: 'Entrenamiento Personal', message: 'Explora los differentes paquetes que ofrecemos.' },
-                            { src: 'img/br2.webp', label: 'Bootcamps', message: 'Entrebna al aire libre.' },
+                            { src: 'img/Entrenamiento Personal.JPG', label: 'Entrenamiento Personal', message: 'Explora los diferentes paquetes que ofrecemos.' },
+                            { src: 'img/br2.webp', label: 'Bootcamps', message: 'Entrena al aire libre.' },
                             { src: 'img/EntrenaHogar.JPG', label: 'Entrena en tu hogar', message: 'Entrena en la comodidad de tu hogar.' },
                             { src: 'img/Facilidades.JPG', label: 'Entrena en nuestras facilidades', message: 'Donde nos encontramos.' },
                             { src: 'img/KoalaCoach1.JPG', label: 'Adquiere una rutina', message: 'Obtén tu rutina online' },
@@ -469,7 +469,7 @@ const Landing = () => {
                                 </p>
                                 <p className="text-white mb-2">
                                     Vive una experiencia cada sábado en la Playa Último Trolley. Sal de tu zona de
-                                    confort, ejercítate y conecta con personas increíbles.
+                                    comfort, ejercítate y conecta con personas increíbles.
                                 </p>
                                 <p className="text-white mb-4">¡No te lo pierdas!</p>
 
@@ -796,7 +796,7 @@ const Landing = () => {
                 <div className="subscribe flex-1 min-h-full px-4 text-white border-r border-white">
                     <div className="title text-3xl font-bold mb-4">Subscríbete</div>
                     <p className="tracking-wide mb-4">
-                        Suscríbete para obtener acceso a todas nuestras ofertas y promociones especiales en Mbfitness.
+                        Subcríbete para obtener acceso a todas nuestras ofertas y promociones especiales en Mbfitness.
                         ¡Somos la mejor opción para alcanzar tus metas!
                     </p>
 

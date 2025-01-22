@@ -150,7 +150,7 @@ const Landing = () => {
                         <FaTimes />
                     </button>
 
-                    {/* Opciones del menú con fondo negro en todas */}
+
                     <a
                         href="#coach"
                         className="text-white text-lg font-medium hover:text-[#ffae01] transition-colors flex items-center gap-2"

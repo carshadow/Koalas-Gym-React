@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaUser, FaBook, FaUsers, FaShareAlt, FaTimes } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
 
 
 
@@ -792,7 +794,7 @@ const Landing = () => {
             </div>
 
 
-            <section className="bg-[#2b2e35] w-full min-h-[60vh] py-4 flex flex-wrap items-start" id='comunicate'>
+            <section className="bg-[#2b2e35] w-full min-h-[60vh] py-4 flex flex-wrap items-start" id="comunicate">
                 <div className="subscribe flex-1 min-h-full px-4 text-white border-r border-white">
                     <div className="title text-3xl font-bold mb-4">Subscríbete</div>
                     <p className="tracking-wide mb-4">
@@ -804,33 +806,34 @@ const Landing = () => {
 
                     <div className="social-media flex flex-wrap">
                         <a
-                            className="instagram w-24 h-24 text-white text-2xl mr-5 hover:text-[#E1306C] transition-colors"
+                            className="instagram w-16 h-16 text-white text-2xl flex items-center justify-center mr-5 hover:text-[#E1306C] transition-colors"
                             href="https://www.instagram.com/mbfitnesspr"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <i className="fab fa-instagram"></i> {/* Instagram Icon */}
+                            <FontAwesomeIcon icon={faInstagram} />
                         </a>
                         <a
-                            className="tiktok w-24 h-24 text-white text-2xl mb-5 mr-5 hover:text-[#69C9D0] transition-colors"
+                            className="tiktok w-16 h-16 text-white text-2xl flex items-center justify-center mb-5 mr-5 hover:text-[#69C9D0] transition-colors"
                             href="https://www.tiktok.com/@alexanderfaleropr"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <i className="fab fa-tiktok"></i> {/* TikTok Icon */}
+                            <FontAwesomeIcon icon={faTiktok} />
                         </a>
                         <a
-                            className="facebook w-24 h-24 text-white text-2xl mb-5 mr-5 hover:text-[#1877F2] transition-colors"
+                            className="facebook w-16 h-16 text-white text-2xl flex items-center justify-center mb-5 mr-5 hover:text-[#1877F2] transition-colors"
                             href="https://www.facebook.com/share/mBChHfVZM39wpGre/?mibextid=LQQJ4d"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <i className="fab fa-facebook"></i> {/* Facebook Icon */}
+                            <FontAwesomeIcon icon={faFacebook} />
                         </a>
-                        <h3 className="text-xl">(787)423-1472</h3>
+                        <h3 className="text-xl">(787) 423-1472</h3>
                     </div>
                 </div>
             </section>
+
 
         </div>
     );

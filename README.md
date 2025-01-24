@@ -16,7 +16,7 @@ Fully responsive: Works seamlessly on both mobile and desktop.
 Smooth animations and transitions: Enhances user experience.
 
 🚀 Live Demo
-The project is deployed at (https://koalas-gym-react-git-main-carshadows-projects.vercel.app/). Check out the live version by clicking the link.
+The project is deployed at (https://www.mbfitnes.com/). Check out the live version by clicking the link.
 
 🛠️ Technologies Used
 React.js: To build an interactive interface.

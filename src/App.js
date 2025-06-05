@@ -1,13 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter
-import Landing from './Landing';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Landing from './components/Landing';
 
 function App() {
   return (
-    <Router> {/* Wrap your components inside Router */}
-      <div>
-        <Landing />
-      </div>
+    <Router>
+      <Landing />
     </Router>
   );
 }
